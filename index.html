@@ -4,26 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Walk the Moon </title>
-
+  <link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran|Roboto+Slab" rel="stylesheet">
 
 
 </head>
 <body>
 
-<h1> Walk the Moon </h1>
-<img src="images/bandphoto.jpg" alt="Band Posing For Camera">
-<p>Image source: <a href="https://www.rcarecords.com/artist/walk-the-moon/">here</a></p>
+<article>
 
-<p> Walk the Moon started is a small indie band from Ohio until their single "Shut Up And Dance" broke the charts in 2015 and put them on the map. They mix pop with hard rock to create a unique style that sounds like it could be straight from the 80s. Below are previews of a few of my favorite Walk the Moon songs. Click on an album cover to check it out! </p>
+<div id="container">
+
+<h1> WALK THE MOON </h1>
+
+<div class="centerlargephoto">
+<img class="largephoto" src="images/bandphoto.jpg" alt="Band Posing For Camera">
+</div>
+
+<div id="source">
+  <p>Image source: <a href="https://www.rcarecords.com/artist/walk-the-moon/">here</a></p>
+</div>
+
+<p> Walk the Moon was just a small indie band from Ohio until their single "Shut Up And Dance" broke the charts in 2015 and put them on the map. They mix synth pop with hard rock to create a unique style that sounds like it could be straight from the 80s. Below are previews of a few of my favorite Walk the Moon songs. Click on an album cover and scroll down to the player to check it out! </p>
 
 <!-- Album covers -->
+<div class="centeralbums">
 <img id="talkingishardpic" class= "albumcover" src="images/talkingishard.jpg" alt="Album cover: Talking is Hard">
 <img id="whatifnothingpic" class="albumcover" src="images/whatifnothing.jpg" alt="Album cover: What if Nothing">
 <img id="onefootpic" class="albumcover" src="images/onefoot.jpg" alt="Album cover: One Foot">
 <img id="headphonespic" class="albumcover" src="images/headphones.jpg" alt="Album cover: Headphones">
-
+</div>
 
 <!-- Songs -->
+<div id="songcenter">
 <div id="shutupanddanceaudio" class="song">
   <audio id="shutupanddance" controls preload="auto">
 	   <source src="audio/shutupanddance.mp3" type="audio/mp3">
@@ -51,6 +65,7 @@
 	   <source src="audio/headphones.ogg" type="audio/ogg">
   </audio>
 </div>
+</div>
 
 
 
@@ -58,6 +73,7 @@
 
 
 <!-- Song text -->
+<div id="songnames">
 <div id="shutupanddancetext">
   <p>Shut Up and Dance</p>
 </div>
@@ -69,6 +85,7 @@
 </div>
 <div id="headphonestext">
   <p>Headphones</p>
+</div>
 </div>
 
 
@@ -91,5 +108,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 
+
+</div>
+</article>
 </body>
 </html>

@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ff90ac;
+  color: #000;
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+
+
+
+#container {
+  max-width: 1280px;
+  margin: 2% auto;
+  display: inline;
+}
+
+article {
+  display: block;
+  width: 80%;
+  padding: 2em;
+  background: #eaeaea;
+  margin: 0 auto;
+}
+
+#songcenter {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#songnames {
+  text-align: center;
+  font-size: 150%;
+}
+
+#source {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 400%;
+  text-align: center;
+  margin: 0;
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+
+
+p {
+  line-height: 1.4em;
+}
+
+
+
+img {
+  padding: 15px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.centeralbums {
+  text-align: center;
+}
+
+.albumcover {
+  display: inline-block;
+}
+
+.centerlargephoto {
+  text-align: center;
+}
+
+.largephoto {
+  display: inline-block;
+}
+
+
+a {
+  color: #0287b3;
+}
+
+a:hover {
+  color: #3ecbfa;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    #container { margin: 0; }
+    article { width: 100%; }
+
+}
