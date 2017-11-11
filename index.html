@@ -16,19 +16,60 @@
 
 <p> Walk the Moon started is a small indie band from Ohio until their single "Shut Up And Dance" broke the charts in 2015 and put them on the map. They mix pop with hard rock to create a unique style that sounds like it could be straight from the 80s. Below are previews of a few of my favorite Walk the Moon songs. Click on an album cover to check it out! </p>
 
-<img src="images/talkingishard.jpg" alt="Album cover: Talking is Hard">
-<img src="images/whatifnothing.jpg" alt="Album cover: What if Nothing">
-<img src="images/onefoot.jpg" alt="Album cover: One Foot">
-<img src="images/headphones.jpg" alt="Album cover: Headphones">
-
-<audio id="soundtrack" controls preload="auto">
-	<source src="audio/shutupanddance.mp3" type="audio/mp3">
-	<source src="audio/shutupanddance.ogg" type="audio/ogg">
-</audio>
-
-<p> This Walk the Moon preview website was created by Alexander Durán for his Intro to Web Apps class. The project was made to practice using audio in HTML and jQuery. </p>
+<!-- Album covers -->
+<img id="talkingishardpic" class= "albumcover" src="images/talkingishard.jpg" alt="Album cover: Talking is Hard">
+<img id="whatifnothingpic" class="albumcover" src="images/whatifnothing.jpg" alt="Album cover: What if Nothing">
+<img id="onefootpic" class="albumcover" src="images/onefoot.jpg" alt="Album cover: One Foot">
+<img id="headphonespic" class="albumcover" src="images/headphones.jpg" alt="Album cover: Headphones">
 
 
+<!-- Songs -->
+<div id="shutupanddanceaudio" class="song">
+  <audio id="shutupanddance" controls preload="auto">
+	   <source src="audio/shutupanddance.mp3" type="audio/mp3">
+	   <source src="audio/shutupanddance.ogg" type="audio/ogg">
+  </audio>
+</div>
+
+<div id="kamikazeaudio" class="song">
+  <audio id="kamikaze" controls preload="auto">
+	   <source src="audio/kamikaze.mp3" type="audio/mp3">
+	   <source src="audio/kamikaze.ogg" type="audio/ogg">
+  </audio>
+</div>
+
+<div id="onefootaudio" class="song">
+  <audio id="onefoot" controls preload="auto">
+	   <source src="audio/onefoot.mp3" type="audio/mp3">
+	   <source src="audio/onefoot.ogg" type="audio/ogg">
+  </audio>
+</div>
+
+<div id="headphonesaudio" class="song">
+  <audio id="headphones" controls preload="auto">
+	   <source src="audio/headphones.mp3" type="audio/mp3">
+	   <source src="audio/headphones.ogg" type="audio/ogg">
+  </audio>
+</div>
+
+
+
+
+
+
+<!-- Song text -->
+<div id="shutupanddancetext">
+  <p>Shut Up and Dance</p>
+</div>
+<div id="kamikazetext">
+  <p>Kamikaze</p>
+</div>
+<div id="onefoottext">
+  <p>One Foot</p>
+</div>
+<div id="headphonestext">
+  <p>Headphones</p>
+</div>
 
 
 
@@ -36,6 +77,19 @@
 
 
 
+
+<footer>
+  <p> This Walk the Moon preview website was created by Alexander Durán for his Intro to Web Apps class. The project was made to practice using audio in HTML and jQuery. </p>
+</footer>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 </html>
